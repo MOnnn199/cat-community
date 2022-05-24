@@ -125,7 +125,7 @@ public class AddCommodityActivity extends AppCompatActivity {
             return false;
         }
         if (price.trim().equals("")) {
-            Toast.makeText(this,"商品价格不能为空!",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"商品价格不能为空!免费帖子请填0",Toast.LENGTH_SHORT).show();
             return false;
         }
         if (type.trim().equals("请选择类别")) {

@@ -18,6 +18,7 @@ import com.leaf.collegeidleapp.bean.Commodity;
 import com.leaf.collegeidleapp.util.CommodityDbHelper;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -83,6 +84,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 allCommodities = dbHelper.readAllCommodities();
+
+                //最新发布的在前
+//                Collections.reverse(allCommodities);
                 adapter.setData(allCommodities);
                 lvAllCommodity.setAdapter(adapter);
             }

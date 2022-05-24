@@ -167,26 +167,31 @@
         android:layout_above="@+id/view4"
         android:layout_marginStart="50dp"
         android:layout_marginBottom="5dp"/>
+
     <TextView
         android:id="@+id/tv_add_product"
-        android:layout_width="70dp"
-        android:layout_height="20dp"
-        android:text="发布闲置"
-        android:textStyle="bold"
-        android:textSize="15sp"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/view4"
         android:layout_marginStart="165dp"
-        android:layout_marginBottom="5dp"/>
+        android:layout_marginBottom="8dp"
+        android:text="发帖"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/tv_personal_center"
-        android:layout_width="70dp"
-        android:layout_height="20dp"
-        android:text="个人中心"
-        android:textSize="15sp"
-        android:textStyle="bold"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/view4"
         android:layout_marginStart="305dp"
-        android:layout_marginBottom="5dp"/>
+        android:layout_marginBottom="8dp"
+        android:text="我的"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
     <View android:id="@+id/view4"
         android:layout_width="match_parent"
         android:layout_height="2dp"
