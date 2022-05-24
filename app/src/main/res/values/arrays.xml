@@ -2,9 +2,9 @@
 <resources>
     <string-array name="product_type">
         <item>请选择类别</item>
-        <item>学习用品</item>
-        <item>电子用品</item>
-        <item>体育用品</item>
-        <item>生活用品</item>
+        <item>猫咪领养</item>
+        <item>猫咪故事</item>
+        <item>猫咪食物</item>
+        <item>猫语解读</item>
     </string-array>
 </resources>
