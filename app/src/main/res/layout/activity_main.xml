@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
     <TextView
         android:id="@+id/tv_title"
-        android:text="跳蚤市场"
+        android:text="猫咪社区"
         android:textSize="40sp"
         android:textStyle="bold"
         android:textColor="@color/colorGreenLight"
@@ -32,85 +33,16 @@
         android:gravity="center_horizontal"
         android:textStyle="italic"
         android:layout_marginBottom="4dp"/>
-    <ImageButton
-        android:id="@+id/ib_learning_use"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_below="@+id/tv_student_number"
-        android:src="@drawable/icon_learning_use"
-        android:scaleType="centerCrop"
-        android:background="@color/colorWhite"
-        android:layout_marginStart="15dp"/>
-    <ImageButton
-        android:id="@+id/ib_electric_product"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="110dp"
-        android:layout_below="@+id/tv_student_number"
-        android:src="@drawable/icon_electric_product"
-        android:scaleType="centerCrop"
-        android:background="@color/colorWhite"/>
-    <ImageButton
-        android:id="@+id/ib_daily_use"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="205dp"
-        android:layout_below="@id/tv_student_number"
-        android:src="@drawable/icon_daily_use"
-        android:scaleType="centerCrop"
-        android:background="@color/colorWhite"/>
-    <ImageButton
-        android:id="@+id/ib_sports_good"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="310dp"
-        android:layout_below="@id/tv_student_number"
-        android:src="@drawable/icon_sports_good"
-        android:scaleType="centerCrop"
-        android:background="@color/colorWhite"/>
-    <TextView
-        android:id="@+id/tv_learning_use"
-        android:layout_width="80dp"
-        android:layout_height="30dp"
-        android:text="学习用品"
-        android:textStyle="bold"
-        android:textSize="18sp"
-        android:layout_below="@+id/ib_learning_use"
-        android:layout_marginStart="15dp"/>
-    <TextView
-        android:id="@+id/tv_electric_product"
-        android:layout_width="80dp"
-        android:layout_height="25dp"
-        android:text="电子用品"
-        android:textStyle="bold"
-        android:textSize="18sp"
-        android:layout_below="@+id/ib_electric_product"
-        android:layout_marginStart="110dp"/>
-    <TextView
-        android:id="@+id/tv_daily_use"
-        android:layout_width="80dp"
-        android:layout_height="25dp"
-        android:text="生活用品"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/ib_daily_use"
-        android:layout_marginStart="205dp"/>
-    <TextView
-        android:id="@+id/tv_sports_good"
-        android:layout_width="80dp"
-        android:layout_height="25dp"
-        android:text="体育用品"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/ib_sports_good"
-        android:layout_marginStart="310dp"/>
+
+
     <ListView
         android:id="@+id/lv_all_commodity"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/tv_electric_product"
-        android:layout_marginTop="4dp"
-        android:layout_above="@+id/view2"/>
+        android:layout_above="@+id/view2"
+        android:layout_below="@+id/tv_student_number"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="-1dp" />
 
     <View android:id="@+id/view1"
         android:layout_width="match_parent"

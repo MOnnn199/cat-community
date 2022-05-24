@@ -6,29 +6,30 @@
     android:background="@color/colorWhite">
     <TextView
         android:id="@+id/tv_title"
-        android:text="校园二手交易平台"
+        android:text="猫咪社区"
         android:textSize="40sp"
         android:textStyle="bold"
         android:typeface="sans"
-        android:textColor="@color/colorBlack"
+        android:textColor="@color/colorWhite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:background="@color/colorBlueDark"/>
+        android:background="@color/pink"/>
 
     <ImageView
         android:id="@+id/iv_logo"
         android:layout_width="wrap_content"
         android:layout_height="244dp"
         android:layout_below="@id/tv_title"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="6dp"
         android:scaleType="centerCrop"
         android:src="@drawable/icon_logo" />
+
     <EditText
         android:id="@+id/et_username"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="请输入学号"
+        android:hint="请输入用户名"
         android:textSize="25sp"
         android:drawableStart="@drawable/icon_user"
         android:drawablePadding="8dp"
@@ -81,9 +82,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_register"
         android:text="登录"
+        android:textColor="@color/colorWhite"
         android:textSize="25sp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/btn_login"
+        android:background="@color/pink"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"/>
 </RelativeLayout>
