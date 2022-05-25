@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
                     UserDbHelper dbHelper = new UserDbHelper(getApplicationContext(),UserDbHelper.DB_NAME,null,1);
                     users = dbHelper.readUsers();
                     for(User user : users) {
-                        //如果可以找到,则输出登录成功,并跳转到主界面
+                        //如果sqlite数据库可以找到,则输出登录成功,并跳转到主界面
                         if(user.getUsername().equals(EtStuNumber.getText().toString()) && user.getPassword().equals(EtStuPwd.getText().toString()) ) {
                             flag = true;
                             Toast.makeText(LoginActivity.this,"恭喜你登录成功!",Toast.LENGTH_SHORT).show();

@@ -3,8 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView android:id="@+id/tv_modify_pwd"
-        android:text="修改密码"
-        android:textSize="40sp"
+        android:text="修改密码（许淑婷）"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:background="@color/DarkCyan"
         android:textColor="@color/Turquoise"

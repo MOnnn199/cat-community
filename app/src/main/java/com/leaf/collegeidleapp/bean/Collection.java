@@ -6,7 +6,7 @@ package com.leaf.collegeidleapp.bean;
  */
 public class Collection {
 
-    //学生学号
+    //用户学号
     private String StuId;
     //商品图片
     private byte[] picture;

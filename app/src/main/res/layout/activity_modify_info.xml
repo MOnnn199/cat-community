@@ -5,8 +5,8 @@
     android:background="@color/colorBlueLight">
     <TextView
         android:id="@+id/tv_my_info"
-        android:text="个人信息"
-        android:textSize="40sp"
+        android:text="个人信息（许淑婷）"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="@color/Turquoise"
         android:layout_width="match_parent"

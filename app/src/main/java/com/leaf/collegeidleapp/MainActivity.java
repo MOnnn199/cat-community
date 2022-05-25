@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             str = "欢迎" + bundle.getString("username") + ",你好!";
         }
         tvStuNumber.setText(str);
-        //当前登录的学生账号
+        //当前登录的账号
         final String stuNum = tvStuNumber.getText().toString().substring(2, tvStuNumber.getText().length() - 4);
         ImageButton IbAddProduct = findViewById(R.id.ib_add_product);
         //跳转到添加物品界面
@@ -57,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, AddCommodityActivity.class);
                 if (bundle != null) {
-                    //获取学生学号
                     bundle.putString("user_id", stuNum);
                     intent.putExtras(bundle);
                 }
@@ -71,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, PersonalCenterActivity.class);
                 if (bundle != null) {
-                    //获取学生学号
+                    //获取用户号
                     bundle.putString("username1", stuNum);
                     intent.putExtras(bundle);
                 }
@@ -115,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
         ibDaily = findViewById(R.id.ib_daily_use);
         ibSports = findViewById(R.id.ib_sports_good);
         final Bundle bundle2 = new Bundle();
-        //学习用品
+        //
         ibLearning.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -125,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        //电子用品
+        //
         ibElectronic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -135,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        //生活用品
+        //
         ibDaily.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -145,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        //体育用品
+        //
         ibSports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

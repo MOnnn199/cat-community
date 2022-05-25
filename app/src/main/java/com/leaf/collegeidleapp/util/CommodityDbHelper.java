@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * 商品数据库连接类
- * @author : autumn_leaf
+ *
  */
 public class CommodityDbHelper extends SQLiteOpenHelper {
 
@@ -67,7 +67,7 @@ public class CommodityDbHelper extends SQLiteOpenHelper {
 
     /**
      * 通过学号查找我的发布物品信息
-     * @param stuId 学生学号
+     * @param stuId 用户学号
      * @return 查找到的物品
      */
     public List<Commodity> readMyCommodities(String stuId) {

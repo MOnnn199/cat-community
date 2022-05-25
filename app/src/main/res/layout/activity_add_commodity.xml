@@ -5,8 +5,8 @@
     android:background="@color/colorBlueLight">
     <TextView
         android:id="@+id/tv_publish_info"
-        android:text="发布商品"
-        android:textSize="40sp"
+        android:text="发布商品(许淑婷)"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="@color/colorGreenLight"
         android:layout_width="match_parent"

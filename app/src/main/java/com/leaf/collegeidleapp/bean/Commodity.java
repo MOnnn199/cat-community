@@ -3,23 +3,22 @@ package com.leaf.collegeidleapp.bean;
 /**
  * 商品实体类
  */
-public class Commodity {
+public class    Commodity {
 
-    //编号
+
     private Integer id;
-    //标题
+
     private String title;
-    //类别
+
     private String category;
-    //价格
+
     private float price;
-    //联系方式
+
     private String phone;
-    //商品描述
+
     private String description;
-    //商品图片,以二进制字节存储
+
     private byte[] picture;
-    //用户学号
     private String stuId;
 
     public Integer getId() {

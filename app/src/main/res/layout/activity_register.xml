@@ -6,14 +6,14 @@
     android:background="@drawable/bj1">
     <TextView
         android:id="@+id/tv_title"
-        android:text="用户注册"
-        android:textSize="40sp"
+        android:text="19计科1班19160102 许淑婷"
+        android:textSize="24sp"
         android:textStyle="italic"
         android:textColor="@color/colorGreen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:background="@color/DarkCyan"/>
+        android:background="@color/pink"/>
     <EditText
         android:id="@+id/et_username"
         android:layout_width="match_parent"

@@ -6,8 +6,8 @@
     android:background="@color/colorWhite">
     <TextView
         android:id="@+id/tv_title"
-        android:text="猫咪社区"
-        android:textSize="40sp"
+        android:text="19计科1班19160102 许淑婷"
+        android:textSize="24sp"
         android:textStyle="bold"
         android:typeface="sans"
         android:textColor="@color/colorWhite"

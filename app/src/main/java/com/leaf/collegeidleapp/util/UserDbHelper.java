@@ -12,7 +12,7 @@ import java.util.LinkedList;
 
 /**
  * 用户数据库连接类
- * @author : autumn_leaf
+ *
  */
 public class UserDbHelper extends SQLiteOpenHelper {
 
@@ -42,7 +42,7 @@ public class UserDbHelper extends SQLiteOpenHelper {
 
     /**
      * 注册时添加用户信息
-     * @param user 学生用户
+     * @param user 用户用户
      */
     public void addUser(User user) {
         SQLiteDatabase db = this.getWritableDatabase();

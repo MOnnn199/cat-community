@@ -43,7 +43,7 @@ public class ModifyInfoActivity extends AppCompatActivity {
         etAddress = findViewById(R.id.et_stu_address);
         StudentDbHelper dbHelper = new StudentDbHelper(getApplicationContext(),StudentDbHelper.DB_NAME,null,1);
         LinkedList<Student> students = dbHelper.readStudents(tvStuNumber.getText().toString());
-        //如果查找到的学生信息不为空
+        //如果查找到的用户信息不为空
         if(students != null) {
             for(Student student : students) {
                 etStuName.setText(student.getStuName());

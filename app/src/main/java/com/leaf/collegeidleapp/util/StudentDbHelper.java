@@ -11,14 +11,14 @@ import com.leaf.collegeidleapp.bean.Student;
 import java.util.LinkedList;
 
 /**
- * 学生数据库连接类
- * @author : autumn_leaf
+ * 用户数据库连接类
+ *
  */
 public class StudentDbHelper extends SQLiteOpenHelper {
 
-    //定义学生表
+    //定义用户表
     public static final String DB_NAME = "tb_student";
-    /**创建学生表*/
+    /**创建用户表*/
     private static final String CREATE_STUDENT_DB = "create table tb_student(" +
             "id integer primary key autoincrement," +
             "stuNumber text," +
@@ -43,8 +43,8 @@ public class StudentDbHelper extends SQLiteOpenHelper {
     }
 
     /**
-     * 保存学生信息
-     * @param student 学生对象
+     * 保存用户信息
+     * @param student 用户对象
      */
     public void saveStudent(Student student) {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -60,9 +60,9 @@ public class StudentDbHelper extends SQLiteOpenHelper {
     }
 
     /**
-     * 通过学号读取学生相关信息
+     * 通过学号读取用户相关信息
      * @param stuNumber 学号
-     * @return 查询到的学生对象列表
+     * @return 查询到的用户对象列表
      */
     public LinkedList<Student> readStudents(String stuNumber) {
         LinkedList<Student> students = new LinkedList<>();
