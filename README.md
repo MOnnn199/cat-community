@@ -40,7 +40,7 @@
 1. 克隆仓库：
 
    ```bash
-   git clone https://github.com/MOnnn199/campus-idle-market.git
+   git clone https://github.com/MOnnn199/cat-community.git
    ```
 
 2. 用 Android Studio 打开项目根目录（导入 Gradle 工程）。
