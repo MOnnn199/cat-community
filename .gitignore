@@ -43,8 +43,14 @@ captures/
 .DS_Store
 Thumbs.db
 
+# Project-internal assistant memory (not part of the app)
+.workbuddy/
+
 # Misplaced Gradle wrapper copies inside the app module (do not commit)
 app/.gradle/
 app/gradle/
 app/gradlew
 app/gradlew.bat
+
+# Assistant project memory (local only, not part of the app)
+.workbuddy/
