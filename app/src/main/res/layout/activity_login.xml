@@ -4,9 +4,10 @@
     android:layout_height="match_parent"
     android:padding="10dp"
     android:background="@color/colorWhite">
+
     <TextView
         android:id="@+id/tv_title"
-        android:text="19计科1班19160102 许淑婷"
+        android:text="猫咪社区"
         android:textSize="24sp"
         android:textStyle="bold"
         android:typeface="sans"
@@ -58,14 +59,14 @@
         android:layout_below="@+id/et_username"
         android:layout_marginTop="20dp"/>
     <!--<TextView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="欢迎登录"-->
-        <!--android:textSize="20sp"-->
-        <!--android:textColor="@color/colorBrown"-->
-        <!--android:layout_below="@+id/et_password"-->
-        <!--android:layout_marginTop="40dp"-->
-        <!--android:layout_marginStart="5dp"/>-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="欢迎登录"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="@color/colorBrown"-->
+    <!--android:layout_below="@+id/et_password"-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--android:layout_marginStart="5dp"/>-->
     <TextView
         android:id="@+id/tv_register"
         android:layout_width="wrap_content"
@@ -85,7 +86,7 @@
         android:textColor="@color/colorWhite"
         android:textSize="25sp"
         android:layout_marginTop="20dp"
-        android:background="@color/pink"
+        android:background="@drawable/edit_red"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"/>
 </RelativeLayout>

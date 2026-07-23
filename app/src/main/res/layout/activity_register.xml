@@ -3,17 +3,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="5dp"
-    android:background="@drawable/bj1">
+    android:background="@drawable/bizhi"
+    android:alpha="0.6">
+
     <TextView
         android:id="@+id/tv_title"
-        android:text="19计科1班19160102 许淑婷"
-        android:textSize="24sp"
-        android:textStyle="italic"
-        android:textColor="@color/colorGreen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#80BEF5"
+        android:fontFamily="@font/chango"
         android:gravity="center_horizontal"
-        android:background="@color/pink"/>
+        android:text="Cat Community"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
     <EditText
         android:id="@+id/et_username"
         android:layout_width="match_parent"
@@ -23,13 +27,13 @@
         android:drawableStart="@drawable/icon_user"
         android:drawablePadding="8dp"
         android:background="@drawable/bg_username"
-        android:textColor="@color/colorBlue"
+        android:textColor="#2D52B7"
         android:inputType="number"
         android:maxLines="1"
         android:layout_below="@+id/tv_title"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="120dp"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"/>
     <EditText
@@ -41,13 +45,13 @@
         android:drawableStart="@drawable/icon_password"
         android:drawablePadding="8dp"
         android:background="@drawable/bg_username"
-        android:textColor="@color/colorBlue"
+        android:textColor="#2D52B7"
         android:inputType="textPassword"
         android:maxLines="1"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:layout_below="@+id/et_username"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"/>
     <EditText
@@ -59,35 +63,39 @@
         android:drawableStart="@drawable/icon_password"
         android:drawablePadding="8dp"
         android:background="@drawable/bg_username"
-        android:textColor="@color/colorBlue"
+        android:textColor="#2D52B7"
         android:inputType="textPassword"
         android:maxLines="1"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:layout_below="@+id/et_password"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"/>
+
     <Button
         android:id="@+id/btn_register"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/et_confirm_password"
-        android:text="注册"
-        android:textSize="25sp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/btn_login"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"/>
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_orange"
+        android:text="注册"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp" />
+
     <Button
         android:id="@+id/btn_cancel"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/et_confirm_password"
-        android:text="取消"
-        android:textSize="25sp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/btn_cancel"
         android:layout_marginStart="200dp"
-        android:layout_marginEnd="10dp"/>
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/edi_green"
+        android:text="取消"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp" />
 </RelativeLayout>

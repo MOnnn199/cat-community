@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
     <TextView
         android:id="@+id/tv_my_commodity"
-        android:text="我的发布（许淑婷）"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="@color/Turquoise"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:background="@drawable/edi_blue"
+        android:fontFamily="@font/nova_square"
         android:gravity="center_horizontal"
-        android:background="@color/colorBlue"/>
+        android:text="My commodity（Name）"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        android:textStyle="bold" />
     <TextView
         android:id="@+id/tv_stu_id"
         android:layout_width="match_parent"
@@ -30,7 +34,7 @@
         android:textSize="22sp"
         android:textColor="@color/colorRed"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="7dp"/>
+        android:layout_marginTop="50dp"/>
     <TextView
         android:id="@+id/tv_back"
         android:layout_width="wrap_content"
@@ -39,7 +43,7 @@
         android:textSize="22sp"
         android:textColor="@color/colorRed"
         android:layout_marginStart="330dp"
-        android:layout_marginTop="7dp"/>
+        android:layout_marginTop="50dp"/>
     <ListView
         android:id="@+id/lv_my_commodity"
         android:layout_width="match_parent"

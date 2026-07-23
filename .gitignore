@@ -1,13 +1,50 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+
+# ART / Dalvik
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle cache & build outputs
+.gradle/
+build/
+app/build/
+
+# Local configuration (SDK path, etc.)
+local.properties
+app/local.properties
+
+# Log / OS files
+*.log
+
+# Android Studio / IntelliJ
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+.idea/
+app/.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore files
+*.jks
+*.keystore
+
+# OS
 .DS_Store
-/build
-/captures
-.externalNativeBuild
+Thumbs.db
+
+# Misplaced Gradle wrapper copies inside the app module (do not commit)
+app/.gradle/
+app/gradle/
+app/gradlew
+app/gradlew.bat

@@ -16,6 +16,7 @@ import com.leaf.collegeidleapp.activity.ReviewCommodityActivity;
 import com.leaf.collegeidleapp.adapter.AllCommodityAdapter;
 import com.leaf.collegeidleapp.bean.Commodity;
 import com.leaf.collegeidleapp.util.CommodityDbHelper;
+import com.leaf.collegeidleapp.view.ListViewInScrollView;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -24,7 +25,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    ListView lvAllCommodity;
+    ListViewInScrollView lvAllCommodity;
     List<Commodity> allCommodities = new ArrayList<>();
     ImageButton ibLearning,ibElectronic,ibDaily,ibSports;
 
